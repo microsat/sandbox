@@ -1,0 +1,74 @@
+= Getting Started with the Nomad 883
+
+== Requirements
+
+Windows:
+
+*   4GB or RAM or higher
+*   Windows Vista, Windows 7, Windows 8 or 8.1
+*   1x USB port
+Mac:
+
+*   4GB of RAM or higher
+*   Mac OSX 10.7 or higher
+*   1x USB port
+
+== Unpacking the Nomad
+
+The Nomad 883 weighs approximately 50 pounds and requires a stable surface to hold it. The machine is made to rest on the front and back panels so it’s important that the entire machine fits on the table.
+
+We have found that machining noise can be greatly reduced by putting a thin foam panel, the kind used for play area floors or anti-fatigue mats, below the machine.
+
+== Part Names
+
+1.  Cutter
+2.  Collet Nut
+3.  Spindle
+4.  Z Carriage
+5.  Tool length probe
+6.  Table
+7.  Main power switch
+8.  Fuse
+9.  Power cord
+10.  USB connection
+11.  Emergency stop
+
+image::http://carbide3d.com/assets/images/gettingstarted883/part-names.png[]
+
+image::http://carbide3d.com/assets/images/gettingstarted883/part-names2.png[]
+
+image::http://carbide3d.com/assets/images/gettingstarted883/part-names3.png[]
+
+== Installing the Software
+
+The Nomad requires 2 pieces of software to get started, Carbide Motion and MeshCAM.
+
+Carbide Motion can be downloaded at http://carbide3d.com/downloads[http://carbide3d.com/downloads] .
+
+MeshCAM can be downloaded at http://grzsoftware.com/dl[http://grzsoftware.com/dl] . You’ll need to get V6 or higher.
+
+MeshCAM requires a license code to active it. You should receive a license code via email before your machine ships.
+
+== Power and emergency stops
+
+The Nomad 883 has a main power switch, and an emergency stop (e-stop).
+
+The main power switch on the left of the machine physically cuts power to the motor drivers in the Nomad. It cannot move with the power switched off.
+
+The e-stop switch on the right disables all motor drives when it is enabled. You will continue to hear the internal fan but the machine cannot move until the e-stop switch is rotated to unlock it.
+
+If you encounter any problems running a job, activate the e-stop or just turn the machine off. To recover from an error like this, it is recommended that you turn of power (if you haven’t done so) and shut down Carbide Motion. Fix the problem and then power the machine back up, remembering to reset the e-stop if you activated it.
+
+== Safety
+
+The Nomad 883 is a serious machine that should be treated like any other power tool. The following warnings must be followed:
+
+1.  Always wear safety glasses when operating the Nomad, even if the protective door is closed
+2.  Always keep the protective door closed unless the machine is stopped and you need to change the cutter or stock material.
+3.  The cutters in the machine are sharp and should be treated with care, even before they are mounted in the machine.
+4.  Never reach into the machine while it is running- it is possible to pinch your hand as the cutter moves around or badly cut yourself if you touch the spinning cutter.
+Above all, use common sense. There are lots of ways to get hurt if you do not treat the machine like the power tool it is.
+
+== What to do now?
+
+Go to http://carbide3d.com/docs[http://carbide3d.com/docs] and work through the tutorials there. The tutorials are written to introduce you to the operation of the Nomad 883 in a series of projects instead of a long textbook. You’ll be cutting out parts in no time.

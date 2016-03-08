@@ -1,0 +1,31 @@
+Now that we have a handle on all the terms and lingo surrounding CNC machining, let's take a look at what some of the most important features to look for in a CNC machine are.  
+
+Aside from common sense characteristics, like reputable vendor, good reviews, and great support, finding the right CNC machine depends largly on determining your budget and requirements for the machine and buying what works best for you.   
+
+When looking at the technical specs of any given machine, keep the following bullet points in mind.  
+
+image::https://ci3.googleusercontent.com/proxy/G4c-fBZouGPIrshMGSymmjoLwS9wzb-j7gjOMsR3CGtHYMMJ4rFXEecnevK9q6wRY9TUYHpn5YwdMltQgnW3ubR4pL5uhEgas-cVcSMmFKWecXMKFaHWXYLFBKt4aK2N7TliURCh8UMPu_79nWpJO8idaPu9pVe8ohbRUeabfCaZFZdCMkCjntAY=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8961/embeddable_70423d6e-1050-4885-9a9c-e71fdde37535.jpg[Image]
+
+**Footprint** - This is how much space the machine will take up on your bench, desk, or table.  
+
+**Cutting Area** - Describes the maximum working area within the CNC machine. This is the largest piece of material the machine is capable of cutting.  
+
+**Working Area** - This could be describing how large of material you can place within the machine. Make note that this may (and probably will) be different than the cutting area. Where the cutting area describes the maximum area your machine can cut, the work envelope describes how large of a piece you can place within the machine.  
+
+**Clearance** - This is the distance between the wasteboard and the lowest point on the gantry (usually the bottom of the Z-axis.). Clearance describes how much height you have to work with, you'll need height for things like really thick material and space to clear clamping (like a vice). The more clearance, the better!  
+
+**Spindle** - Pay special attention to the spindles max RPM and max torque. Make sure it can accept and handle 1/4" shank end mills if you're going to do any sort of serious cutting.  
+
+**Controller** - Be careful, a lot of CNC machines dont ship with a controller! You'll need a controller to connect your computer to your CNC machine and to make it move.  
+side note: Shapeoko 3 ships with our Carbide Motion Controller. A USB based controller that we designed from scratch to be used with Carbide3D CNC machines.  
+
+**Software** - Most machines ship with no software at all! You'll need machine control software, CAD Software, and CAM software if you want to fully working machine  
+side note: Carbide3D provides all the software you need with the purchase of a Shapeoko 3. All our software runs on both Mac and Windows.  
+- Carbide Create - Fully featured 2.5D CAD/CAM software that's designed for Carbide3D CNC machines.  
+- Carbide Motion - The easiest to use Machine Control software available. Load jobs, home your machine, run your programs!  
+
+image::https://ci6.googleusercontent.com/proxy/6RioVvsiDsIipgtXAuI1s7fT9LX9_fxmNJxzv2DZmlsdmlhG6A59sNfVYc9mkRaqHAx-ekcRn77-LHhn_SlWIb8Cu2PhlJMFu2GHEioywsngQfa4vuZNFvkMgdcDF5AJQTmme-BigAqwExbeMSinVdtu_OgJPcP0b3fMz_H4gJqu-OSHkq7sL-25QQ=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8949/embeddable_b388e251-1174-46e8-8bed-dce5275ba03c.jpeg[Image]
+
+If you know that Shapeoko is right for you, head over to http://t.dripemail2.org/c/eyJhY2NvdW50X2lkIjoiNjQ4MTk2MSIsImRlbGl2ZXJ5X2lkIjoiODk3NDU5ODkiLCJ1cmwiOiJodHRwOi8vc2hvcC5jYXJiaWRlM2QuY29tL3Byb2R1Y3RzL3NoYXBlb2tvMz9fX3M9bWVpemtieDd3Zm9oc3F4NW1na24ifQ[our store] and pick one up today! If you're looking for a more turn key solution that looks gorgeous inside a studio or small office, take a look at our other CNC machine, the http://t.dripemail2.org/c/eyJhY2NvdW50X2lkIjoiNjQ4MTk2MSIsImRlbGl2ZXJ5X2lkIjoiODk3NDU5ODkiLCJ1cmwiOiJodHRwOi8vd3d3LmNhcmJpZGUzZC5jb20_X19zPW1laXprYng3d2ZvaHNxeDVtZ2tuIn0[Nomad883].   
+
+And that wraps up this 5 part series on getting into CNC machines. If you have any questions, please feel free to email us directly at mailto:sales@carbide3d.com[sales@carbide3d.com], we personally respond to every email!

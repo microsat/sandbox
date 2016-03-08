@@ -1,0 +1,63 @@
+This is a 5 part series about getting started with CNC machining. We're not going to turn you into a machinist in 5 days, but will teach you enough to decide if a CNC machine is right for your shop.  
+
+In the last email we learned about the basic components of a CNC machine and what all the surrounding terminology means. Today we're going to look at what it takes to go from an idea to part. Let's get started!  
+
+= Basic Workflow:
+Step 1: Idea  
+Step 2: CAD/CAM  
+Step 3: Job Setup  
+Step 4: Run Job!  
+
+To help illustrate the workflow, let's use an example of creating a push stick for your table saw.
+
+==   
+
+image::https://ci3.googleusercontent.com/proxy/jrEjvhMX1_9wPAFC21U9GJbY-dRHVYGK9PIoFNNk5QkGHTS6eVYhpt-Kwj0NQYmIrfWo4iZNztgL-CEP7IEg5ZyuVpaRUsdOsWY1EkH9MfTXRubGrBe5LAKH1Bw3Sa9Jzhj03BWI0jvyFlkY8oVzrHq_R_tnPqrXh8iax6zDr53jJy3saaqiI56U=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8958/embeddable_8f0bbeae-49f4-46ac-96a4-20199dac0705.jpg[Image]
+
+[underline]#Step 1: Have an idea!#
+Before we can make anything on a CNC machine, we have to have an idea of something to make. These come in various forms and times of day, from mission critical pieces for your next project, to chotskis you might set on a shelf. The key component to this phase is to identify what is important and begin thinking about how you can draw it and what the critical dimensions will be.   
+
+image::https://ci3.googleusercontent.com/proxy/iG2YfHk-X1NpniGLHTX20TPigIq1yQU9aDxUYGLut_yNo8xYkM4Fsj9Kcr2MTdzYVSv0kw9SoJSRdVjS7l7sVZH5ASJ9tu2fFDyYpZJW2uvHQnKFugt-pltGx4QrKqd1v5LNeVEDUlUbx4rPEJSz2qaHsNwc_7nL3kXeXx7ECEXw82Rn4BF04yTS=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8955/embeddable_01bbe7c4-e02d-45f5-aeaf-c08338217855.JPG[Image]
+
+(Using our push stick example, here's what I came up with.)
+
+==   
+[underline]#Step 2: Draw your idea in CAD#
+Remember, CAD can be any program you use on your computer to draw. Could be a full 3D modeling package, or it could be something as simple as a Corel or Adobe product. To draw my push stick, I'm using Carbide Create, the CAD/CAM package that comes free with any machine purchased from Carbide3D.  
+
+image::https://ci4.googleusercontent.com/proxy/GMPiqtLFXJkfop0sXKbsMMCyQcylb5-Ey54AXygjhCA02D68L4yTPhzKhEaXP15QOG72X6SPuCsj4SRL-5RWRsPNRgNRGKCgF-ycWyBT7ZnH_QngafGFSZaQUHzKAAndudIeekmranvzjlqeA05sj4AifPmO4jxZG-xdlHL92SVM__HfnyYfT7w6=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8956/embeddable_5badd361-898c-4e6d-a5e3-21fc66d21ec4.png[Image]
+
+(Drawn in Carbide Create, the CAD/CAM package that comes with Shapeoko and Nomad 883.)  
+
+== [underline]#Create your Toolpaths (CAM)#
+After your part is drawn, we need to describe what all of the lines and holes mean. This is what CAM does, it allows us to specify how each *feature* in our drawing is supposed to be treated by our CNC machine. In it's most basic form, we are telling the machine to cut inside of a line, or cut outside of the line, and how deep to cut. Each feature is referred to as a toolpath. Once these toolpaths are created, the software will save them as a gcode file.  
+
+note: in most cases your CAD and CAM will be two separate programs that you have to buy from two separate vendors. Carbide Create is both CAD and CAM in the same package!  
+
+image::https://ci3.googleusercontent.com/proxy/6PmwRbKfz9U2dWAbNshIscwAi2xecCNLWcaknthdfteScTqoUS4zVhvo00m_JpTwdYG3XnbLJE4YOj9NJGbifX4j4TNsVTmxBt9cCWQfbNqiHFmLdrfSerNhszTgPKRcpCeO2_JWvNyTLCArMKwZGJ2EtSaPogpx4qvxJJSScvSdj2HkhNDnKACx=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8957/embeddable_a2992ffe-3304-4dcc-9b62-7dfbbbb36669.png[Image]
+
+(our push stick, with toolpaths added)
+
+==   
+[underline]#Step 3: Setup your machine#
+Now that we have our idea drawn in CAD and all of the toolpaths added to our design, it's time to get our machine setup to do some work! At this point you would put in whatever material you are using to make your part (for the push stick, I'm using two pieces of 10" x 10" x 3/4" plywood glued together to make a 1.5" thick piece of stock.  
+
+Once the material is loaded into your machine and secured to the wasteboard, it's time to load the job in our machine control software and get ready to make some chips!
+
+==   
+[underline]#Step 4: Run the Job!#
+
+image::https://ci3.googleusercontent.com/proxy/r7qNIH-CYFWWZiNr1HKyJLqxNhYvnc6yI8QegqkcXAcOTk-OCpoyc2XxO3YIpRU33lwM4y4GIDEnETSKaUuYJ_KI3LUCofnqlt4K0pFl6ESTdfN9l7vYgPrS88C2Rrv599icqKb8jc-PesZy9Qa0D1fRL5N_Y5qMY_Uxj4KLOV61SBHmkEaYK-pM=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/9061/embeddable_fe171785-cc46-437d-9c4d-28236aebfadd.png[Image]
+
+Our material is secured to the machine, and our software is open with the gcode file loaded. The only thing left to do is put in an 1/8" endmill, move the bit to where the zero point in our project is (lower left corner), turn our spindle on, and then click the big green RUN button!  
+
+This job will complete in about 20 minutes. Once it's done, we remove our part from the machine, and put whatever on whatever finish we want to use.   
+
+Now that you understand how to go from Idea to Part, tomorrow's installment will dive into talking about what End Mills are, and why they're not as scary as you think.  
+
+Until then,  
+
+Edward  
+Founder, Shapeoko.com  
+
+P.S. If you've already decided that a CNC machine is right for you, and you are ready to get started with a machine of your own, click over to http://t.dripemail2.net/c/eyJhY2NvdW50X2lkIjoiNjQ4MTk2MSIsImRlbGl2ZXJ5X2lkIjoiODc5MzE1NzEiLCJ1cmwiOiJodHRwOi8vc2hvcC5jYXJiaWRlM2QuY29tL3Byb2R1Y3RzL3NoYXBlb2tvMz9fX3M9bWVpemtieDd3Zm9oc3F4NW1na24ifQ[Shapeoko.com] and checkout the Shapeoko 3 desktop CNC machine. http://t.dripemail2.net/c/eyJhY2NvdW50X2lkIjoiNjQ4MTk2MSIsImRlbGl2ZXJ5X2lkIjoiODc5MzE1NzEiLCJ1cmwiOiJodHRwOi8vc2hvcC5jYXJiaWRlM2QuY29tL3Byb2R1Y3RzL3NoYXBlb2tvMz9fX3M9bWVpemtieDd3Zm9oc3F4NW1na24ifQ[At only $999], it's the best CNC machine in its class! 

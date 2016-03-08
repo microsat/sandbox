@@ -1,0 +1,62 @@
+In the last email we learned about what steps are required to go from idea to part with a CNC machine in your shop. Today we're going to learn about Feeds and Speeds and End Mills  
+
+If you've done even a moderate amount of looking around for a CNC machine, you're bound to have run across topics discussing both 'speeds and feeds' and which types of endmills are best in certain situations.   
+
+For a beginner, this information seems foreign, daunting, and downright impossible to understand. Don't worry, here's a no frills approach to speeds and feeds and End mills.  
+
+= Speeds and Feeds:
+Let's talk about what speeds and feeds actual means, and why they're not as scary as they sound.  
+
+**Speed:** How quickly your spindle is turning the bit. This is literally the RPM of your spindle.   
+**Feed:** This is how quickly your machine is moving while cutting the material. Generally in a lateral movement such as across the X or Y axis.   
+
+Side note: plunging is sometimes brought up in speeds and feeds. Plunging only means how *fast* your machine is pushing the bit DOWN into the material. Plunging is usually referred to in both depth and speed. example: 'my machine is plunging at 5 inches per minute to a depth of 1/4". '  
+
+Speeds and feeds get brought up a lot because if you want to nerd out about the perfect way to cut a material, there is a formula to do so. The formula is based on the number of flutes your bit has, which direction you are cutting, and something called chip-load.   
+
+At Carbide3D we built speeds and feeds into the software that comes with our machines. You need to tell us what material you want to make with, and what diameter bit you'll be using. From there, our software auto calculates the best speed and feed for your job.   
+
+= End Mills
+CNC machines use an end mill to remove material from your stock by spinning the end mill  (anywhere from low 100s RPM to 30,000RPM!). End mills come in all shapes, sizes, and material, but odds are you'll only use a few different types for the projects you make.  
+
+End mills are commonly referred to as 'bits' or 'cutters'  
+
+**Here are some of the different end mills we sell for our CNC machines.**  
+
+image::https://ci3.googleusercontent.com/proxy/Kq9EMH_7wQ9kyAQOFG7L8cwVJVRpXfMsLY8KhVWMDsvg9HyNbLPX6d6KWV_R-JORzGjJG0-7XHW1c3VuSJ0Sib1rJU_q9agkTQGjx1HxYDks1L8rY2-fDFg3lFkzblz8Q6ZnDq993QTVmaUcE_QZVRPMp7ZT-jI2q06_QjMe4XUvi9f7qdlhgHxM=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8959/embeddable_8e97de7d-1d4f-41f1-83d8-4b3c68aa6beb.png[Image]
+
+==   
+Type of End Mills:
+**Square End** - These cutters are the most common and can be used for anything from routing passes, to creating beautiful surface finishes.  
+
+**Ball Nose** - These bits are perfect for creating complex shapes and nice curved contours. Generally used for '3D' machining.  
+
+**V-Bits** - Usually sold in 60 degree of 90 degree varieties. V-bits are most commonly used to do lettering and detailed engraving in sign work.  
+
+Want to know a dirt little secret? Proper CNC endmills will give you a better finish, and ultimately are what you want to use for any sort of high end finish work. But, with that said you can use wood router bits with your CNC machine! Have a drawer full of router bits you use with your hand router? Those will work with a CNC too!
+
+==  
+
+==   
+Parts of an Endmill
+
+image::https://ci4.googleusercontent.com/proxy/J3BHjawAnJCH78bv7VrORPv4DSDzyC9Eo7S_LqKGInBDboGsIt0mBCsT885zduRQtAc7MM87NbVMl0fv4Um9CmaBzZGE1EtwZLn7VV2xyz2sI0xdwgF2_QVpBk7yFeBTMJIZQnDYo-LLbBxgEApXH78H1B9BFu5H9AxtNZYXZ3VXKTucHAv0_1I_=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/9045/embeddable_767ceee4-dc86-4f06-9073-45e87a90d71c.jpg[Image]
+
+**Overall length:** Measuring your End Mill from one end to the other will yield the overall length of the bit. Remember that the longer your bit is, the more deflection it will have compared to a shorter bit. You may need to slow your machine down, or generally be less aggressive with your machining if using a longer bit.  
+
+**Shank Diameter:** This is the diameter of the end of the endmill that will go into your spindle. You'll need to know about your spindle's workholding capacity before selecting the Shank diameter. Common shank sizes are 1/8" (3mm) and 1/4" (6mm). You need to match the the shank diameter with your collet size.  
+
+**Cutting Edge Diameter:** This is the diameter of the cutting end of your end mill - the opposite end as the shank. In this image, the shank diameter and the cutting diameter are the same size (1/4"). It's very common to find 1/4" shank end mills with a different (generally smaller) cutting edge diameter.  
+
+**Cutting Length:** The end mill will have flutes that only cover a portion of the overall length of the bit. The cutting legth determines how deep of a pass can be taken with a single plunge.  
+
+And with that, we'll end today's lesson.  
+
+You've learned about speeds and feeds and different types of endmills. Tomorrow we are going to learn what the hell 2.5D means.  
+
+You don't want to miss it,  
+
+Edward  
+Founder, Shapeoko.com  
+
+P.S. If you've already decided that a CNC machine is right for you, and you are ready to get started with a machine of your own, click over to Shapeoko.com and checkout the http://t.dripemail2.net/c/eyJhY2NvdW50X2lkIjoiNjQ4MTk2MSIsImRlbGl2ZXJ5X2lkIjoiODg0ODAwODgiLCJ1cmwiOiJodHRwOi8vc2hvcC5jYXJiaWRlM2QuY29tL3Byb2R1Y3RzL3NoYXBlb2tvMz9fX3M9bWVpemtieDd3Zm9oc3F4NW1na24ifQ[Shapeoko 3 desktop CNC machine]. 

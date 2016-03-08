@@ -1,0 +1,36 @@
+What on earth does 2.5D mean?
+
+Today we're going to discuss what the hell 2.5D means, and why it's relevant to CNC machining.  
+
+We all know that real life objects are 3 dimensional. So, anything that you make on your CNC is 3D. But, like everything else CNC related, there's additional terminology used to describe the different types of parts that can be made on a CNC.  
+
+== **There are 3 different strategies used to create all CNC parts.**
+
+image::https://ci3.googleusercontent.com/proxy/Gzcdb2rmbNTDxx84L-jHtBaB_GMhMBCOJhU39xttfiW_g1gJYrCrBLh35eXAGB3o8odWK5yExUuOcvPa-ha4GSGbY5jK_I1_YvtfF--AVlhuGkr4ddVdqtMDbfk2ZYIJZAz0wASpEw3n2CX8VU2IcqOO4rboecnE5mumZoA7P5Fy34FpAbH2dPkx=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8960/embeddable_a8491b54-c663-416a-8f34-60021dfb9221.jpg[Image]
+
+**2D** - This refers to a part where every single feature is cut to the full depth of the material. There is no engraving, there are no pockets, and there are no contoured faces. Anything that a laser cutter makes is referred to as 2D.   
+
+**2.5D** - This is the most common strategy for CNC machining. The genius behind 2.5D design lies in how it's drawn. All 2.5D parts can be drawn in 2D, and do not require specialized 3D modeling software. The specific thing to know about 2.5D is that although features can vary in depth (think of a pocket), what separates it from full 3D is that 2.5D only moves the Z-axis straight down! 2.5D does not move the Z-axis down while also moving the X and Y axis.  
+
+**3-D** - The fanciest of the bunch. 3D machining requires both a 3D model to be created for the part AND 3D CAM software to convert the 3D model into usable gcode. 3Dmachining means that all 3 axis (X/Y/Z) can all be cutting at the same time. 
+
+=   
+What you need to know:
+What is important to know about 2D, 2.5D, and 3D - any 3-axis CNC machine can cut all 3 types of parts!  
+
+What determines if *you* can produce 2D, 2.5D, or 3D parts boils down to one thing: SOFTWARE. Most companies who make CNC machines don't make software, so they tell you to go buy whatever software you'll need to make the parts you want to make.  
+
+At Carbide3D, we not only make the machines, we make the software that runs them! Including CAD/CAM.   
+
+Both Shapeoko 3 and Nomad883 comes with our very own full featured 2.5D CAD/CAM program called Carbide Create. Every user gets a free license with their machine.  For an additional $250, we also offer MeshCAM - a full featured 3D CAM program to turn 3D models into toolpaths - through our online store.  
+
+That's it for today.  
+
+in the next email, we're going to wrap up this 5 day course and send you on your way.  
+
+Thanks for signing up!  
+
+Edward  
+Founder, Shapeoko.com  
+
+P.S. If you're ready to start making 2D, 2.5D, or 3D parts of your own, click over to Shapeoko.com and checkout the http://t.dripemail2.net/c/eyJhY2NvdW50X2lkIjoiNjQ4MTk2MSIsImRlbGl2ZXJ5X2lkIjoiODkxNTY3NjUiLCJ1cmwiOiJodHRwOi8vc2hvcC5jYXJiaWRlM2QuY29tL3Byb2R1Y3RzL3NoYXBlb2tvMz9fX3M9bWVpemtieDd3Zm9oc3F4NW1na24ifQ[Shapeoko 3 desktop CNC machine]. 

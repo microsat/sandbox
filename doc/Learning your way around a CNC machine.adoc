@@ -1,0 +1,71 @@
+Thank you for checking out our crash course on CNC machining.   
+
+This tutorial won't turn you into a machinist, but it will give you enough information to learn more about CNC machines, and if they're right for your application.  
+
+Today, we start by learning the terminology around CNC.
+
+==  
+
+= Parts of a CNC machine
+
+image::https://ci5.googleusercontent.com/proxy/fLJyFT-b1KtKtVoVD88Rcb0tJz2ezO31wusXKI7kHJ7O07W-p91X7KqocW08fLHzf4A_hi4OtKECywt0jF5h5Nl-dr61u5DDsRY2EcLJMXTtaRS8V6NormXOsTTYDFWByUDtdSaBepJNFVLXCU7oTeIQXTPcYvseedD58ZZemBsl4-ymyAuigxc8_g=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8952/embeddable_fadabf1f-62e3-464b-a76a-3b75f3c571ad.jpeg[Image]
+
+==   
+Major Components
+[underline]#**Y-Axis**#  
+If standing in front of the machine, the Y-axis moved forward and backwards and in the case of Shapeoko, is responsible for moving the entire gantry.  
+(Some people refer to the Y Axis as 'the gantry'. For the sake of being correct, you need to know that the gantry is actually the entire assembly, not just the Y-axis!)  
+
+[underline]#**X-Axis**#  
+This is the part of the CNC machine that moves left and right (when looking at the machine from the front). The X axis is generally driven by one motor, and is responsible for carrying the Z-Axis around the machine.  
+
+[underline]#**Z-Axis**#  
+The business end of your CNC machine! The Z-axis carries the spindle, and is responsible for raising and lowering your cutting tool to the correct height. One important feature to look for in a good z-axis is how much travel it has. More travel allows you to use longer tools and makes it easier to perform tool changes.  
+
+[underline]#**Spindle**#  
+Your workhorse! The spindle is the tool you are using to turn your end mills (bits). You can use anything from a basic rotary tool (like a dremel) to a purpose build 15hp water cooled spindle designed specifically for high performance machining. In the hobby and pro-sumer range, a quality trim router is a great choice. On the Shapeoko 3, we recommend the Dewalt DWP611 because of it's robust design and rock solid performance.   
+
+== Controller
+
+image::https://ci3.googleusercontent.com/proxy/NNqkpjIkwQkyRYngtgmFwM7bqTNd_EdSQUIoguoTLKSWQ5070YPqnnqLDw_NoC2tSUGkwMwcUv4w4Uhj_e-EhpG66hFAuAoOpCOt8SfrQCruNI5ryOmMe_s4jIk--tns9jXPcA_qIhoNLaEto3yXRqoC4z0PegRSGXVcjCLKryQYFty5ng9eNvgG=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8951/embeddable_54fb1d19-1b3d-4c00-bd90-b13a4dd8aa14.jpg[Image]
+
+[underline]#**The Brains**#  
+The controller provides the link between your computer and your CNC machine. Most modern machines, especially in the hobby, pro-sumer, and home use, prefer connection via USB, so no special computer is required to connect to the controller.  
+
+= **Software**
+To a lot of people, this is the scary part. With terms like CAD/CAM, gcode, and machine control software, it's easy to get intimidated. FEAR NOT! Here's what each one means.
+
+=   
+
+**Machine Controller**
+
+image::https://ci3.googleusercontent.com/proxy/g2EtcrPjbKgyDRJEMrXOMzrMcm9gGfRqutqNMqDBTI_5AAi8XXWcV0oKZppd-XAwLCiB1la2TSzCWTMiQ76o_OlLtROB9XEQqEBH_QtyBL3y6OofXm0wMvaKN9cMDSVaM8anjlZMbCm_QRoInC2TDZlrK-3pQaAeXSVHaA9plaXstVvCLCB9W4OK=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8954/embeddable_61729caa-c416-4e84-8dae-5483f159c79f.png[Image]
+
+This is the software that allows you to operate your CNC machine. The machine control software gives you the ability to turn your machine on and off, load your gcode, jog your machine, and set your job zero point. Think of the machine controller as the cock-pit of the CNC machine!
+
+=   
+CAD/CAM  
+
+image::https://ci3.googleusercontent.com/proxy/Edj21aVrzMqMxict025oPfbXOv_voXh9yeZ1-31rxAlQqO6EwOMkDfsCKBmCLNB5HL7W_BYombV6aeyqRTkPaa06-W-huwmJnr8p9W6vuDiDDlPi_QtK-0KJ7Mbr3ejVeLc2oYd6ZAmHFNPZVUHlvVZeWb8b60e8TFJpr9XmIH4aFbg2VR2UoPGY=s0-d-e1-ft#https://getdrip.s3.amazonaws.com/uploads/image_upload/image/8953/embeddable_96080a78-0a6c-4ff1-8617-7d7922056794.png[Image]
+
+[underline]#**CAD (Computer Aided Design)**#
+CAD is where you turn your idea into a digital design! CAD is software that allows you to draw on your computer. This can be anything from a full blown parametric 3Dmodeling package like Solidworks, to something as simple as Adobe Illustrator. Don't let the word CAD scare you. All it means is 'something to draw in'.  
+
+[underline]#**CAM (Computer Aided Manufacturing)**#  
+CAM is where you turn your CAD design into something your CNC machine can understand. CAM is software that lets you specify HOW your design is going to be made on your CNC machine. Your CAM program will output g-code. Like most terminology around CNC, CAM sounds scarier than it really is.  
+
+[underline]#**G-code**#  
+If Spanish is 'the language of love', then g-code is 'the language of industry'. G-code is a set of instructions for your machine that tell it things like where to go, how fast to move, to turn the spindle on and off, along with a host of other actions.  
+
+Although possible to do, [underline]#You never have to write gcode!#  99% of people never even look at the gcode file their CAM program produces. We only bring it up so you know what people are talking about when they say 'g-code'.  
+
+**That's it for today!**  
+
+In the next email, we'll look at an example of going from idea to part, and what steps are required to do so.  
+
+If you have any questions in the meantime, please hit the reply button and drop us a line. I will respond personally to every email.  
+
+Edward Ford   
+Founder, Shapeoko.com  
+
+PS-  We're still working on more topics for this course and we're looking for your help.  If you've got a problem that you're hoping a CNC machine will solve, please let us know what it is and we'll see if we can cover it.  Just click "reply" to this email and let us know.  
